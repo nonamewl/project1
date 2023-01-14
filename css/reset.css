@@ -1,0 +1,25 @@
+html{font-size:62.5%;}
+body {  font-size:1.4rem; background: #eee;} 
+
+html {overflow-y:scroll;} 
+body {margin:0; padding:0;}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+h1,h2,h3,h4,h5,h6{ font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+
+a { text-decoration: none; color: #44617b; }
+* { font-size: 1.4rem; }
+
+input { border-radius: 5px;outline: 0px; font-size: 1.5rem; box-sizing: border-box; border: 1px #999 solid;  height: 35px; }
+input:focus { border: #666 solid 1px; }
+button {  outline: 0px;height: 35px; cursor: pointer; padding: 5px 15px; border-radius: 5px;color: #666; border: 1px #999 solid; box-sizing: border-box;  }
+button:hover   {border: #666 solid 1px; color: #000;  }
+input[type='radio'] { width: 20px; height: 20px; }
+input[type='checkbox'] { width: 20px; height: 20px; }
+select { outline: 0px;border: 1px #999 solid;  height: 35px; border-radius: 5px;}
+select:focus { border: #666 solid 1px; }

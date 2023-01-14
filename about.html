@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>甘肃民俗文化网</title>
+
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<!-- 最大的容器-包装 -->
+
+		<div class="wrapper">
+
+			<script type="text/javascript">
+				$(window).scroll(function() {
+					var before = $(window).scrollTop();
+
+					console.log(before)
+					if (before > 150) {
+						var h = 200 + before
+						$('.pf').css('top', h)
+					} else {
+						$('.pf').css('top', '30%')
+					}
+				});
+			</script>
+
+			<!-- 页面头部 -->
+			<div style="background: #fff;">
+				<ul class="logo sfkuang ">
+
+					<img src="images/logo.png"> </ul>
+			</div>
+			<div class="header-content">
+
+
+				<div class="sfkuang header-nav">
+					<ul class="header-content-menu jz">
+						<li><a href="index.html"> 首页</a></li>
+						<li><a href="about.html"> 民俗简介</a></li>
+
+						<li><a class="xlbox" href="ms.html"> 民风民俗</a>
+							<div class="menu-box">
+								<a href="ms.html"> 秦腔
+								</a>
+								<a href="ms.html"> 太平鼓</a>
+								<a href="ms.html"> 窑洞营造技艺</a>
+
+
+
+							</div>
+						</li>
+						<li><a href="wh.html">民俗文化</a>
+
+						</li>
+					</li>
+                        <li><a href="shiyan.html">实验报告</a></li>   
+					</ul>
+
+					<audio style="display: none;" id="audio1" width="420" loop>
+						<source src="mp3/1.mp3" type="audio/mp3" />
+
+					</audio>
+
+				</div>
+			</div>
+
+		</div>
+		<div class="sfkuang content-part">
+			<h1>甘肃省十大民族风景</h1>
+			<table style="width: 100%; height: auto;" border="1" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>名称</th>
+					<th>地址</th>
+					<th>简介</th>
+					
+				</tr>
+				<tr>
+					<td>敦煌莫高窟</td>
+					<td>甘肃省敦煌市境内的莫高窟、西千佛洞的总称</td>
+					<td>是我国著名的四大石窟之一，也是世界上现存规模最宏大，保存最完好的佛教艺术宝库。　莫高窟位于敦煌市东南25公里处，开凿在鸣沙山东麓断崖上。前秦符坚建元二年(公元366年)有沙门乐尊者行至此处，见鸣沙山上金光万道，状有千佛，于是萌发开凿之心，后历建不断，遂成佛门圣地，号为敦煌莫高窟，俗称千佛洞。</td>
+				
+				</tr>
+				<tr>
+					<td>麦积山石窟</td>
+					<td>位于秦岭西端北侧，距城区28公里。</td>
+					<td>麦积山石窟，是麦积山国家5A级旅游景区五大子景区之一，凿于十六国后秦时期，经北魏、西魏、北周、隋唐、五代、宋、元、明、清等10多个朝代的不断开凿、重修，遂成为仅次于敦煌莫高窟的我国第二大艺术宝窟，现存194个洞窟，泥塑、石雕7800多件，壁画1000多平方米，崖阁8座,以其精美的泥塑艺术闻名中外，被誉为“东方艺术雕塑馆”，是古丝绸之路上的一朵艺术奇葩，与敦煌莫高窟、山西云岗石窟、河南龙门石窟并称为中国四大石窟，而麦积山石窟则以独特的泥塑艺术独树一帜。</td>
+					
+				</tr>
+				<tr>
+					<td>嘉峪关</td>
+					<td>嘉峪关位于甘肃省嘉峪市,是万里长城最西边的关口，历史上曾被称为“河西咽喉”。</td>
+					<td>　嘉峪关长城是全国重点文物保护单位。嘉峪关南为祁连山，雪峰绵亘千里；北为龙首山、马鬃山，与祁连山对峙，雄居河西。
+
+　　嘉峪关的神气之处就在于一个“关”字。整个关城分为外城、瓮城和内称三层，结构巧妙，可以说固若金汤了。
+
+　　关城外面还在继续建造新的长城，这些人造景观多了，让后人也无从分辨谁真谁假，不知道是福是祸。而一旁的长城博物馆值得一看，里面很多文物和介绍令人耳目一新。</td>
+					
+				</tr>
+				<tr>
+					<td> 崆峒山</td>
+					<td>位于平凉市城西11公里处，东瞰西安。</td>
+					<td>自古就有“西来第一山”、“西镇奇观”之美誉。人文始祖轩辕黄帝曾三次登临崆峒山，向广成子求教修身治国之道，秦皇、汉武亦慕名登临，司马迁、杜甫、白居易、林则徐、谭嗣同等挥笔题赞。景区面积84平方公里，其间峰峦雄峙，危崖耸立，似鬼斧神工；林海浩瀚，烟笼雾锁，如缥缈仙境；高峡平湖，山水一色，有漓江神韵，既富北方山势之雄伟，又兼南方景色之秀丽。</td>
+					
+				</tr>
+				<tr>
+					<td>西王母故里泾川窑洞民居</td>
+					<td>泾川是西王母降生发祥地，远古西王母文化遗存的民俗事象，在泾川一带广为承传。</td>
+					<td>　泾川黄土深厚，以农立县历史悠久。要发展农耕必须定居，因农耕受天时和空间的制约，安居才能乐业，民居窑洞就带有农耕文明的烙印。从远古到现在，泾川大地上生活的人们就与这黄土地上的山、川、塬、峁相伴而生，相居而安，黄土窑和窑洞年年岁岁与人结下不可分离的缘份，这也是与西王母民俗文化有着千丝万缕联系的“穴处”事象演变和延伸的印证。</td>
+					
+				</tr>
+				<tr>
+					<td>鸣沙山-月牙泉风景名胜区</td>
+					<td>鸣沙山，古称神沙山、沙角山。东西长约40公里，南北宽20公里，高数十米，。</td>
+					<td>山峰陡峭，势如刀刃，整个山体由油润细米粒状黄沙积聚而成。我攀山而上，只觉脚下的沙子会鸣鸣作响，虽深一脚浅一脚，前进一步后退半步，爬山异常艰难，但仍感乐趣无穷。我一鼓足作气爬上顶峰。此时，顿觉劲风夹着细沙，朝身袭来，鸣声不绝于耳，身后留下的脚印很快便消失了。据说，狂风起时，从山顶下滑沙砾随人体下坠，沙山会发出巨大的响声，平日轻风吹拂时，又似管弦丝竹，因而得名为鸣沙山。鸣沙山的日落景观更令人陶醉，不可不看，叹为观止。</td>
+				
+				</tr>
+				
+			</table>
+			<div style="margin-top: 30px;" class="bkuang ind-part-1 jz">
+
+				<div class="ind-part-1-left">
+					<img src="images/ab.png">
+				</div>
+				<div class="ind-part-1-right">
+
+					<h1 style="text-align: center;">张掖七彩丹霞景区
+
+					</h1><br>
+
+					<ul><br>
+
+						<p>张掖丹霞地质公园地处祁连山北麓，位于甘肃省张掖市临泽县城以南30公里，是中国丹霞地貌发育最大最好、地貌造型最丰富的地区之—，是中国彩色丹霞和窗棂状宫殿式丹霞的典型代表，具有很高的科考和旅游观赏价值。
+
+						</p>
+						<p>
+
+　　2005年11月由中国地理杂志社与全国34家媒体联合举办的“中国最美的地方”评选活动中，当选为“中国最美的七大丹霞”之—。2015年被全国多家知名网站评选为全球25个梦幻旅行地。...
+							>>></p><br>
+					</ul>
+
+
+
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="bkuang footer">
+
+			<div class="footer-poster" style="background: #F19317;  "></div>
+			<p>Copyright © 甘肃民俗文化网 All Rights Reserved.</p>
+		</div>
+
+		</div>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				speed: 1000,
+				autoplay: {
+					delay: 2000,
+					stopOnLastSlide: false,
+					disableOnInteraction: true,
+				},
+				scrollbar: {
+					el: '.swiper-scrollbar',
+					hide: true,
+				},
+			});
+		</script>
+	</body>
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</html>
